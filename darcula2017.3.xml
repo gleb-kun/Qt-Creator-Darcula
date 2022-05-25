@@ -5,9 +5,12 @@
   <style name="Selection" background="#214283"/>
   <style name="LineNumber" foreground="#606366" background="#313335"/>
   <style name="SearchResult" background="#155221"/>
+  <style name="SearchResultAlt1" foreground="#000033" background="#b6ccff"/>
+  <style name="SearchResultAlt2" foreground="#330000" background="#ffb6cc"/>
   <style name="SearchScope" background="#214283"/>
   <style name="Parentheses" bold="true"/>
   <style name="ParenthesesMismatch"/>
+  <style name="AutoComplete" foreground="#000080" background="#c0c0ff"/>
   <style name="CurrentLine" background="#3a3a3a"/>
   <style name="CurrentLineNumber" foreground="#888888" bold="true"/>
   <style name="Occurrences" foreground="#000000" background="#616161"/>
@@ -16,14 +19,19 @@
   <style name="Number" foreground="#6897bb"/>
   <style name="String" foreground="#6a8759"/>
   <style name="Type" foreground="#b5b6e3"/>
+  <style name="Namespace" foreground="#b5b6e3"/>
   <style name="Local" foreground="#a9b7c6"/>
+  <style name="Parameter" foreground="#a9b7c6"/>
+  <style name="Global" foreground="#ce5c00"/>
   <style name="Field" foreground="#9876aa"/>
   <style name="Static" foreground="#b5b6e3"/>
   <style name="VirtualMethod" foreground="#ffc66d" italic="true"/>
   <style name="Function" foreground="#a9b7c6"/>
-  <style name="Keyword" foreground="#d57c33" bold="true"/>
+  <style name="Keyword" foreground="#d57c33"/>
   <style name="PrimitiveType" foreground="#d57c33"/>
   <style name="Operator" foreground="#cfbfad"/>
+  <style name="Overloaded Operator" foreground="#6897bb"/>
+  <style name="Punctuation"/>
   <style name="Preprocessor" foreground="#bbb529"/>
   <style name="Label" foreground="#a9b7c6" background="#2b2b2b"/>
   <style name="Comment" foreground="#808080" italic="true"/>
@@ -53,8 +61,17 @@
   <style name="DiffDestLine" background="#277027"/>
   <style name="DiffDestChar" background="#339d33"/>
   <style name="LogChangeLine" foreground="#c00000"/>
+  <style name="LogAuthorName" foreground="#007af4"/>
+  <style name="LogCommitDate" foreground="#006600"/>
+  <style name="LogCommitHash" foreground="#ff0000"/>
+  <style name="LogCommitSubject"/>
+  <style name="LogDecoration" foreground="#ff00ff"/>
   <style name="Warning" underlineColor="#ffbe00" underlineStyle="SingleUnderline"/>
   <style name="WarningContext" underlineColor="#ffbe00" underlineStyle="DotLine"/>
   <style name="Error" underlineColor="#ff0000" underlineStyle="WaveUnderline"/>
   <style name="ErrorContext" underlineColor="#ff0000" underlineStyle="DotLine"/>
+  <style name="Declaration" foreground="#ffc66d"/>
+  <style name="FunctionDefinition" foreground="#ffc66d"/>
+  <style name="OutputArgument" italic="true"/>
+  <style name="StaticMember"/>
 </style-scheme>
